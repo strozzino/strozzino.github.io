@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 700px;
+    background: lightgray;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.banner {
+    background-color: #f0f0f0;
+    padding: 40px 20px;
+    text-align: center;
+    font-size: larger;
+}
+
+.offers {
+    background-color: #666;
+    color: #fff;
+    padding: 20px;
+}
+
+.offers li {
+    margin-bottom: 10px;
+}
+
+.recensioni {
+    padding: 20px;
+}
+
+.recensioni ul {
+    list-style: none;
+    padding: 0;
+}
+
+.recensioni li {
+    margin-bottom: 10px;
+	padding: 10px;
+}
+
+.contratto {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.contratto form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contratto label {
+    margin-bottom: 5px;
+}
+
+.contratto input,
+.contratto textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contratto button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
